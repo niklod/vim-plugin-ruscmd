@@ -1,6 +1,6 @@
 Adjusted plugin for my dictor layout. Thanks to https://github.com/powerman/vim-plugin-ruscmd
 ======
-ruscmd
+== ruscmd
 ======
 
 == Description
