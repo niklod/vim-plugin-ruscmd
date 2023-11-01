@@ -91,7 +91,6 @@ if !exists('g:no_plugin_maps') && !exists('g:no_ruscmd_maps')
   map <unique> цР q:
   map <unique> цж q/
   map <unique> цЖ q?
-  map <unique> ]] ``
   map <unique> П `< 
   map <unique> ]Г `>
   map <unique> ]ш `[
