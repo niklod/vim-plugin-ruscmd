@@ -482,4 +482,6 @@ if !exists('g:no_plugin_maps') && !exists('g:no_ruscmd_maps')
 	map <unique> <C-W>э <C-W>x
 	map <unique> <C-W>ф <C-W>z
 	map <unique> <C-W>Щ <C-W>}
+
+	map <unique>  я  e
 endif
