@@ -54,7 +54,6 @@ if !exists('g:no_plugin_maps') && !exists('g:no_ruscmd_maps')
   map <unique> м m
   map <unique> п ,
   map <unique> г .
-  map <unique> [ ~
   map <unique> Ц Q
   map <unique> Ь W
   map <unique> Я E
@@ -91,12 +90,6 @@ if !exists('g:no_plugin_maps') && !exists('g:no_ruscmd_maps')
   map <unique> цР q:
   map <unique> цж q/
   map <unique> цЖ q?
-  map <unique> ]П `< 
-  map <unique> ]Г `>
-  map <unique> ]ш `[
-  map <unique> ]щ `]
-  map <unique> ]Ш `{
-  map <unique> ]Щ `}
   map <unique> йй ''
   map <unique> йП '<
   map <unique> йГ '>
@@ -105,7 +98,6 @@ if !exists('g:no_plugin_maps') && !exists('g:no_ruscmd_maps')
   map <unique> йШ '{
   map <unique> йЩ '}
   map <unique> шй ['
-  map <unique> ш] [`
   map <unique> шЕ [D
   map <unique> шК [I
   map <unique> шЧ [P
@@ -121,7 +113,6 @@ if !exists('g:no_plugin_maps') && !exists('g:no_ruscmd_maps')
   map <unique> шф [z
   map <unique> шШ [{
   map <unique> щй ]'
-  map <unique> щ] ]`
   map <unique> щЕ ]D
   map <unique> щК ]I
   map <unique> щЧ ]P
@@ -137,264 +128,160 @@ if !exists('g:no_plugin_maps') && !exists('g:no_ruscmd_maps')
   map <unique> щф ]z
   map <unique> щШ ]{
   map <unique> мУ mA
-  map <unique> ]У `A
   map <unique> йУ 'A
-  map <unique> а]У g`A
   map <unique> айУ g'A
   map <unique> мЮ mB
-  map <unique> ]Ю `B
   map <unique> йЮ 'B
-  map <unique> а]Ю g`B
   map <unique> айЮ g'B
   map <unique> мХ mC
-  map <unique> ]Х `C
   map <unique> йХ 'C
-  map <unique> а]Х g`C
   map <unique> айХ g'C
   map <unique> мЕ mD
-  map <unique> ]Е `D
   map <unique> йЕ 'D
-  map <unique> а]Е g`D
   map <unique> айЕ g'D
   map <unique> мЯ mE
-  map <unique> ]Я `E
   map <unique> йЯ 'E
-  map <unique> а]Я g`E
   map <unique> айЯ g'E
   map <unique> мО mF
-  map <unique> ]О `F
   map <unique> йО 'F
-  map <unique> а]О g`F
   map <unique> айО g'F
   map <unique> мА mG
-  map <unique> ]А `G
   map <unique> йА 'G
-  map <unique> а]А g`G
   map <unique> айА g'G
   map <unique> мЛ mH
-  map <unique> ]Л `H
   map <unique> йЛ 'H
-  map <unique> а]Л g`H
   map <unique> айЛ g'H
   map <unique> мК mI
-  map <unique> ]К `I
   map <unique> йК 'I
-  map <unique> а]К g`I
   map <unique> айК g'I
   map <unique> мН mJ
-  map <unique> ]Н `J
   map <unique> йН 'J
-  map <unique> а]Н g`J
   map <unique> айН g'J
   map <unique> мТ mK
-  map <unique> ]Т `K
   map <unique> йТ 'K
-  map <unique> а]Т g`K
   map <unique> айТ g'K
   map <unique> мС mL
-  map <unique> ]С `L
   map <unique> йС 'L
-  map <unique> а]С g`L
   map <unique> айС g'L
   map <unique> мМ mM
-  map <unique> ]М `M
   map <unique> йМ 'M
-  map <unique> а]М g`M
   map <unique> айМ g'M
   map <unique> мБ mN
-  map <unique> ]Б `N
   map <unique> йБ 'N
-  map <unique> а]Б g`N
   map <unique> айБ g'N
   map <unique> мД mO
-  map <unique> ]Д `O
   map <unique> йД 'O
-  map <unique> а]Д g`O
   map <unique> айД g'O
   map <unique> мЧ mP
-  map <unique> ]Ч `P
   map <unique> йЧ 'P
-  map <unique> а]Ч g`P
   map <unique> айЧ g'P
   map <unique> мЦ mQ
-  map <unique> ]Ц `Q
   map <unique> йЦ 'Q
-  map <unique> а]Ц g`Q
   map <unique> айЦ g'Q
   map <unique> м? mR
-  map <unique> ]? `R
   map <unique> й? 'R
-  map <unique> а]? g`R
   map <unique> ай? g'R
   map <unique> мИ mS
-  map <unique> ]И `S
   map <unique> йИ 'S
-  map <unique> а]И g`S
   map <unique> айИ g'S
   map <unique> м! mT
-  map <unique> ]! `T
   map <unique> й! 'T
-  map <unique> а]! g`T
   map <unique> ай! g'T
   map <unique> мВ mU
-  map <unique> ]В `U
   map <unique> йВ 'U
-  map <unique> а]В g`U
   map <unique> айВ g'U
   map <unique> мЫ mV
-  map <unique> ]Ы `V
   map <unique> йЫ 'V
-  map <unique> а]Ы g`V
   map <unique> айЫ g'V
   map <unique> мЬ mW
-  map <unique> ]Ь `W
   map <unique> йЬ 'W
-  map <unique> а]Ь g`W
   map <unique> айЬ g'W
   map <unique> мЭ mX
-  map <unique> ]Э `X
   map <unique> йЭ 'X
-  map <unique> а]Э g`X
   map <unique> айЭ g'X
   map <unique> мЗ mY
-  map <unique> ]З `Y
   map <unique> йЗ 'Y
-  map <unique> а]З g`Y
   map <unique> айЗ g'Y
   map <unique> мФ mZ
-  map <unique> ]Ф `Z
   map <unique> йФ 'Z
-  map <unique> а]Ф g`Z
   map <unique> айФ g'Z
   map <unique> му ma
-  map <unique> ]у `a
   map <unique> йу 'a
-  map <unique> а]у g`a
   map <unique> айу g'a
   map <unique> мю mb
-  map <unique> ]ю `b
   map <unique> йю 'b
-  map <unique> а]ю g`b
   map <unique> айю g'b
   map <unique> мх mc
-  map <unique> ]х `c
   map <unique> йх 'c
-  map <unique> а]х g`c
   map <unique> айх g'c
   map <unique> ме md
-  map <unique> ]е `d
   map <unique> йе 'd
-  map <unique> а]е g`d
   map <unique> айе g'd
   map <unique> мя me
-  map <unique> ]я `e
   map <unique> йя 'e
-  map <unique> а]я g`e
   map <unique> айя g'e
   map <unique> мо mf
-  map <unique> ]о `f
   map <unique> йо 'f
-  map <unique> а]о g`f
   map <unique> айо g'f
   map <unique> ма mg
-  map <unique> ]а `g
   map <unique> йа 'g
-  map <unique> а]а g`g
   map <unique> айа g'g
   map <unique> мл mh
-  map <unique> ]л `h
   map <unique> йл 'h
-  map <unique> а]л g`h
   map <unique> айл g'h
   map <unique> мк mi
-  map <unique> ]к `i
   map <unique> йк 'i
-  map <unique> а]к g`i
   map <unique> айк g'i
   map <unique> мн mj
-  map <unique> ]н `j
   map <unique> йн 'j
-  map <unique> а]н g`j
   map <unique> айн g'j
   map <unique> мт mk
-  map <unique> ]т `k
   map <unique> йт 'k
-  map <unique> а]т g`k
   map <unique> айт g'k
   map <unique> мс ml
-  map <unique> ]с `l
   map <unique> йс 'l
-  map <unique> а]с g`l
   map <unique> айс g'l
   map <unique> мм mm
-  map <unique> ]м `m
   map <unique> йм 'm
-  map <unique> а]м g`m
   map <unique> айм g'm
   map <unique> мб mn
-  map <unique> ]б `n
   map <unique> йб 'n
-  map <unique> а]б g`n
   map <unique> айб g'n
   map <unique> мд mo
-  map <unique> ]д `o
   map <unique> йд 'o
-  map <unique> а]д g`o
   map <unique> айд g'o
   map <unique> мч mp
-  map <unique> ]ч `p
   map <unique> йч 'p
-  map <unique> а]ч g`p
   map <unique> айч g'p
   map <unique> мц mq
-  map <unique> ]ц `q
   map <unique> йц 'q
-  map <unique> а]ц g`q
   map <unique> айц g'q
   map <unique> м, mr
-  map <unique> ], `r
   map <unique> й, 'r
-  map <unique> а], g`r
   map <unique> ай, g'r
   map <unique> ми ms
-  map <unique> ]и `s
   map <unique> йи 's
-  map <unique> а]и g`s
   map <unique> айи g's
   map <unique> м. mt
-  map <unique> ]. `t
   map <unique> й. 't
-  map <unique> а]. g`t
   map <unique> ай. g't
   map <unique> мв mu
-  map <unique> ]в `u
   map <unique> йв 'u
-  map <unique> а]в g`u
   map <unique> айв g'u
   map <unique> мы mv
-  map <unique> ]ы `v
   map <unique> йы 'v
-  map <unique> а]ы g`v
   map <unique> айы g'v
   map <unique> мь mw
-  map <unique> ]ь `w
   map <unique> йь 'w
-  map <unique> а]ь g`w
   map <unique> айь g'w
   map <unique> мэ mx
-  map <unique> ]э `x
   map <unique> йэ 'x
-  map <unique> а]э g`x
   map <unique> айэ g'x
   map <unique> мз my
-  map <unique> ]з `y
   map <unique> йз 'y
-  map <unique> а]з g`y
   map <unique> айз g'y
   map <unique> мф mz
-  map <unique> ]ф `z
   map <unique> йф 'z
-  map <unique> а]ф g`z
   map <unique> айф g'z
   map <unique> аП g<
   map <unique> аЕ gD
@@ -432,7 +319,6 @@ if !exists('g:no_plugin_maps') && !exists('g:no_ruscmd_maps')
   map <unique> аы gv
   map <unique> аь gw
   map <unique> аэ gx
-  map <unique> а[ g~
   map <unique> фг z.
   map <unique> фУ zA
   map <unique> фХ zC
@@ -482,8 +368,6 @@ if !exists('g:no_plugin_maps') && !exists('g:no_ruscmd_maps')
   map <unique> кш i[
   map <unique> ущ a]
   map <unique> кщ i]
-  map <unique> у] a`
-  map <unique> к] i`
   map <unique> ую ab
   map <unique> кю ib
   map <unique> уч ap
@@ -555,9 +439,9 @@ if !exists('g:no_plugin_maps') && !exists('g:no_ruscmd_maps')
   map <unique> Йз "y
   map <unique> Йф "z
   map <unique> уЙ a"
-  map <unique> i" кЙ
-  map <unique> a' уй
-  map <unique> i' кй
+  map <unique> кЙ i"
+  map <unique> уй a'
+  map <unique> кй i'
 
 	map <unique> <C-W>П <C-W><
 	map <unique> <C-W>Г <C-W>>
