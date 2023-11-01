@@ -530,7 +530,7 @@ if !exists('g:no_plugin_maps') && !exists('g:no_ruscmd_maps')
   map <unique> ЙФ "Z
   map <unique> Йу "a
   map <unique> Йю "b
-  map <unique> Йс "c
+  map <unique> Йх "c
   map <unique> Йе "d
   map <unique> Йя "e
   map <unique> Йо "f
