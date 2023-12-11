@@ -26,7 +26,6 @@ if !exists('g:no_plugin_maps') && !exists('g:no_ruscmd_maps')
   map <unique> ь w
   map <unique> я e
   map <unique> , r
-  map <unique> . t
   map <unique> з y
   map <unique> в u
   map <unique> к i
